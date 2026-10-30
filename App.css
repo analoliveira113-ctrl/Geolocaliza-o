@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f7f1;
+  color: #263b2c;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 18px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 55px;
+  margin-bottom: 8px;
+}
+
+.header h1 {
+  color: #218447;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #718078;
+  font-size: 14px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px #00000012;
+}
+
+.card h2 {
+  color: #218447;
+  margin-bottom: 22px;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbd9ce;
+  border-radius: 9px;
+  background: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-registrar {
+  background: #218447;
+  color: white;
+}
+
+.btn-registrar:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.mensagem {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.resultado {
+  margin-top: 25px;
+  padding: 18px;
+  background: #edf8ef;
+  border-radius: 12px;
+  overflow-wrap: anywhere;
+}
+
+.resultado h3 {
+  color: #218447;
+  margin-bottom: 15px;
+}
+
+.resultado p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn-maps {
+  background: #2769a8;
+  color: white;
+  margin: 15px 0 25px;
+}
+
+pre {
+  background: #1d3025;
+  color: #a8edba;
+  padding: 15px;
+  border-radius: 9px;
+  overflow-x: auto;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  color: #829087;
+  font-size: 12px;
+}

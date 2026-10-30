@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EcoColeta</string>
+    <string name="title_activity_main">EcoColeta</string>
+    <string name="package_name">com.ecocoleta.app</string>
+    <string name="custom_url_scheme">com.ecocoleta.app</string>
+</resources>

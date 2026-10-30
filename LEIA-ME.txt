@@ -1,0 +1,17 @@
+EcoColeta - arquivos base
+
+Arquivos:
+- App.jsx: componente React com seleção de resíduo, captura GPS, JSON e botão Google Maps.
+- App.css: estilos da interface.
+
+Para usar:
+1. Copie App.jsx e App.css para a pasta src do seu projeto React.
+2. Confira se src/main.jsx importa App.jsx (normalmente: import App from './App.jsx').
+3. Instale o plugin: npm install @capacitor/geolocation
+4. Sincronize: npx cap sync android
+5. No android/app/src/main/AndroidManifest.xml, dentro de <manifest>, adicione:
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+Observação:
+O exemplo gera o objeto JSON no aplicativo e no console. Ele ainda não envia os dados para um banco de dados, pois a atividade pede gerar o JSON para envio.
